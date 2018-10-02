@@ -3,15 +3,32 @@ $ git config --global user.email "nallappa.4501@gmail.com"
 git config --list
 git --list
 git help
+git status
 git help add //to know about the complete info about add command in git
 pwd // to find the current working directory
 git log //to check all the commits.
 $ git log --author="Nallappa, Pasavala" //To track the changes did by the particular user
 
+Differences between : working area, staging area and Repo 
 The working area --> in your local machine where are woking.
 Staging Area --> After adding to the staging area but not commit
 git add git.txt --> in staging area
 Then after commiting it's in the repository area
+
+How to add Notepad as git editor :
+1.Add the notepad++ path to the system environment varibles :C:\Program Files (x86)\Notepad++
+2.type notepad++ in gitbash.
+3.type notepad++ .bash_profile //to create git bash file.
+4.Add new line in notepad : alias npp='notepad++.exe --multiInst --nosession'
+Then ctrl+staging 
+Then Ctrl+w
+Then Alt+f4
+5.Go to gibash and type: git config --global core.editor "\"C:\Program Files(x86)\Notepad++\notepad++.exe\""
+5. type :git config config --global -e
+
+
+
+
 
 
 
