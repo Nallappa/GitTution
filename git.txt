@@ -43,6 +43,7 @@ git merge develop //merging files in develop to master
 git branch //to check the branches
 git push origin master
 git reset HEAD <FILENAME> // it will reset from staging area to working area
+git reset HEAD~ //It will commit the changes from repo to stating area
 
 
 
