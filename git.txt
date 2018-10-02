@@ -62,6 +62,8 @@ git stash drop // to drop the stash
 git stash pop //it will pop all the stashes //basically does git stash apply and git stash drop.
 
 
+git stash save "Change in multiple stashing" //with message for ease
+
 
 
 
