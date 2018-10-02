@@ -9,5 +9,10 @@ git log //to check all the commits.
 $ git log --author="Nallappa, Pasavala" //To track the changes did by the particular user
 
 The working area --> in your local machine where are woking.
+Staging Area --> After adding to the staging area but not commit
+git add git.txt --> in staging area
+Then after commiting it's in the repository area
+
+
 
 
