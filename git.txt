@@ -5,4 +5,9 @@ git --list
 git help
 git help add //to know about the complete info about add command in git
 pwd // to find the current working directory
+git log //to check all the commits.
+$ git log --author="Nallappa, Pasavala" //To track the changes did by the particular user
+
+The working area --> in your local machine where are woking.
+
 
