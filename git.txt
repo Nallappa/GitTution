@@ -51,7 +51,6 @@ git branch -d branchname
 git log --online --decorate
 git log --online --graph --decorate --all
 
-git stash
 
 Git stash:
 git stash
@@ -59,7 +58,7 @@ git stash apply
 git stast list
 git stash drop
 
-
+To Drop the stash
 
 
 
