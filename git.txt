@@ -53,12 +53,12 @@ git log --online --graph --decorate --all
 
 
 Git stash:
-git stash
-git stash apply
-git stast list
-git stash drop
+git stash // to store the uncommited workspace
+git stash apply // to retrve the uncommited changes in stash
+git stast list // to list all the changes
+git stash drop // to drop the stash
 
-To Drop the stash
+
 
 
 
