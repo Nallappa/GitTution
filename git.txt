@@ -60,9 +60,12 @@ git stash apply // to retrve the uncommited changes in stash
 git stast list // to list all the changes
 git stash drop // to drop the stash
 git stash pop //it will pop all the stashes //basically does git stash apply and git stash drop.
+git stash save "Change in multiple stashing"
+git stash show stash@{1} //to check the particular change in the file.
 
+git stash apply stash{1}
+git stash drop stash{1}
 
-git stash save "Change in multiple stashing" //with message for ease
 
 
 
