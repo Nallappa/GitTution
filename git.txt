@@ -51,6 +51,7 @@ git branch -d branchname
 git log --online --decorate
 git log --online --graph --decorate --all
 
+git stash
 
 
 
