@@ -39,7 +39,7 @@ Branches :
 git branch develop //to create a new branch
 git checkout master //to switch to master branch
 git merge develop //merging files in develop to master
-
+git branch //to check the branches
 
 
 
