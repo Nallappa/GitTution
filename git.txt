@@ -8,6 +8,10 @@ git help add //to know about the complete info about add command in git
 pwd // to find the current working directory
 git log //to check all the commits.
 $ git log --author="Nallappa, Pasavala" //To track the changes did by the particular user
+git diff //To know the files in different locations.
+git diff --staged //displays all the changes between staged and working area.
+git rm -- <file to remo> //can me removed from the repo area.
+
 
 Differences between : working area, staging area and Repo 
 The working area --> in your local machine where are woking.
@@ -25,6 +29,14 @@ Then Ctrl+w
 Then Alt+f4
 5.Go to gibash and type: git config --global core.editor "\"C:\Program Files(x86)\Notepad++\notepad++.exe\""
 5. type :git config config --global -e
+
+How to sinc the git and git hub
+1.git init
+2.git remote add origin git@github.com:Nallappa/GitTution.git
+3.git pull origin <master>
+
+Pull the file form master branch :
+
 
 
 
