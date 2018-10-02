@@ -35,7 +35,10 @@ How to sinc the git and git hub
 2.git remote add origin git@github.com:Nallappa/GitTution.git
 3.git pull origin <master>
 
-Pull the file form master branch :
+Branches :
+git branch develop //to create a new branch
+git checkout master //to switch to master branch
+git merge develop //merging files in develop to master
 
 
 
